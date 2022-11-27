@@ -1,0 +1,146 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#ffffff, #6d6d6d);
+}
+
+.red > td{
+ color: red;
+}
+
+.green > td{
+    color: green;
+   }
+
+.styleCenter{
+    text-align: center;
+}
+
+.cadastro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(#6d6d6d, #ffffff);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(77, 77, 77, 0.6);
+    border-radius: 10px;
+  }
+
+.cadastro h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(22, 22, 22);
+    
+}
+
+.cadastro .cadastroUsuario {
+    position: relative;
+    font-weight:bold
+}  
+
+.cadastro .cadastroUsuario input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 13px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+.cadastro .cadastroUsuario label {
+    color: rgb(22, 22, 22);
+  }
+
+::placeholder {
+    color: rgb(22, 22, 22);
+    opacity: 1;
+}
+  
+:-ms-input-placeholder {
+    color: rgb(22, 22, 22);
+}
+  
+::-ms-input-placeholder {
+    color: rgb(22, 22, 22);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.button {
+    background-color: #1b1b1b; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor:pointer;
+  } 
+
+  .button2 {
+    background-color: #1b1b1b;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 39px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor:pointer;
+  }   
+
+.cadastro {
+    animation: fadeIn 2s
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+
+.space {
+    width: 70px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: rgb(202, 202, 202);
+    text-align: center;
+    padding: 7px 20px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #6d6d6d
+  }
+
